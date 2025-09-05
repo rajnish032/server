@@ -1,0 +1,41 @@
+{
+  "name": "Aero2Astro",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "next build",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aero2Astro",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cheerio": "^1.1.0",
+    "cloudinary": "^2.5.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dji-log-parser": "^0.0.4",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "express-fileupload": "^1.5.1",
+    "googleapis": "^140.0.0",
+    "imagekit": "^5.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mailchecker": "^6.0.4",
+    "mongoose": "^8.5.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.13",
+    "nodemon": "^3.1.9",
+    "otp-generator": "^4.0.1",
+    "otpless-node-js-auth-sdk": "^1.0.8",
+    "puppeteer": "^23.0.2",
+    "puppeteer-core": "^23.0.2",
+    "uuid": "^9.0.1",
+    "xlsx": "^0.18.5"
+  }
+}
