@@ -1,5 +1,5 @@
 import expressAsyncHandler from 'express-async-handler';
-import {PostJob} from '../models/postJob.model.js';
+import {PostJob} from '../models/postjob.model.js';
 import User from "../models/userSchema.js";
 import { uploadImageToCloudinary } from '../utils/cloudinary.js';
 import { uploadKmlToCloudinary, deleteKMLFromCloudinary } from '../utils/cloudinary.js';
