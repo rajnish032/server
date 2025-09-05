@@ -75,4 +75,5 @@ email: {
 
 }, { timestamps: true });
 
+
 export const PostJob = mongoose.model("PostJob", postJob);
